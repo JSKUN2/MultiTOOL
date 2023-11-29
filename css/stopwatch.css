@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+    width: 200px;
+    height: 130px;
+    margin: 0;
+    background-color: #1F2022;
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+.waktu{
+    margin-left: 32px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Orbitron', sans-serif;
+}
+button{
+    font-size: 20px;
+    border: solid 3px hsl(186 100% 69%);
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+}
+.back{
+    color: white;
+    background-color: #1F2022;
+    border: none;
+    margin: 0;
+}
+.dropdown-toggle{
+    margin: 0;
+    color: white;
+}
+#Reset{
+    display: inline;
+}
+#Start{
+    display: inline;
+}
+#Stop{
+    display: none;
+}

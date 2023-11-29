@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+body{
+    width: 500px;
+    background-color: #1F2022;
+    margin: 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+}
+.badan{
+    margin: 20px;
+}
+#TombolItem{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: none;
+    margin: 0;
+}
+#hasil{
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    min-width: 50px;
+    height: 25px;
+    border-radius: 2px;
+    font-family: 'Inconsolata', monospace;
+    border:solid 1px hsl(186 100% 69%);
+}
+.bi{
+    margin-bottom: 2px;
+}
+.back{
+    color: white;
+    background-color: #1F2022;
+    border: none;
+    margin: 0;
+}

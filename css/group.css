@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+body{
+    width: 500px;
+    background-color: #1F2022;
+    margin: 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+}
+.badan{
+    margin: 20px;
+}
+.input-group-text{
+    text-align: left;
+}
+.hasil-list{
+    padding: 5px;
+    border: solid hsl(186 100% 69%);
+    margin-left: 20px;
+    font-family: 'Inconsolata', monospace;
+    width: 330px;
+}
+.back{
+    color: white;
+    background-color: #1F2022;
+    border: none;
+    margin: 0;
+}
