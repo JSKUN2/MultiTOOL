@@ -1,6 +1,5 @@
 # MultiTOOL
-Extensi chrome serbaguna yang bisa anda gunakan untuk keperluan sehari hari.
+Extensi chrome serbaguna yang bisa anda gunakan untuk keperluan sehari hari. <br>
 
-# Contribution
 Code By: Joseph Simbolon. <br>
 Logo By: Gabriel Sitompul.
