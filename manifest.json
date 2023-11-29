@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "MultiTOOL",
+    "version": "1.0",
+    "description": "Alat serbaguna yang bisa anda gunakan untuk keperluan sehari hari",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["js/popup.js", "js/popup2.js", "js/popup3.js", "js/popup4.js"]
+      }
+    ],
+    "permissions": [
+      "activeTab"
+    ],
+    "icons":{
+        "128": "properti/logo.png"
+      }
+  }
+  

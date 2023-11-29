@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/timer.css">
+  <title>Timer</title>
+</head>
+<body>
+  <a href="index.html"><button class="back"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+</svg></button></a>  <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  Timer
+</button>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Timer</a></li>
+  <li><a class="dropdown-item" href="stopwatch.html">Stopwatch</a></li>
+</ul>
+<div style="text-align: center; align-items: center;">
+  <div class="input">
+    <input type="number" id="jam" min="0" max="24" value="00">
+    <h1>:</h1>
+    <input type="number" id="menit" min="0" max="60" value="00">
+    <h1>:</h1>
+    <input type="number" id="detik" min="0" max="60" value="00">
+  </div><br>
+  <button class="start" id="start">Start</button>
+  <button class="stop" id="stop">Stop</button><br>
+  <h1 id="HitungMundur"></h1>
+</div>
+  <script src="js/popup3.js"></script>
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
